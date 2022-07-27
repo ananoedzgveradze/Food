@@ -1,0 +1,96 @@
+body {
+    max-width: 100%;
+    max-height: auto;
+    background-image: url("https://static.dezeen.com/uploads/2019/07/lucky-cat-restaurant-interiors-london-afroditi-krassa_dezeen_hero-1-852x479.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+   
+}
+
+/* header */
+
+.header {
+    background-color: transparent;
+    max-width: 100%;
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.headList {
+    color: aliceblue;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+
+        --s: 0.1em;   /* the thickness of the line */
+        --c: #aa0000; /* the color */
+        
+        color: #0000;
+        padding-bottom: var(--s);
+        background: 
+          linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+          linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+        -webkit-background-clip: text,padding-box;
+                background-clip: text,padding-box;
+        transition: 0.5s;
+      }
+
+.headList:hover {
+        --_p: 100% }
+      
+
+.logo {
+    font-family: "Sofia", sans-serif;
+    color: azure;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #ffffff;
+}
+
+/* first-section */
+
+.mainText {
+    width: 1200px;
+    height: 200px;
+    background-color:transparent;
+    margin: 150px auto;
+    
+}
+
+.text1 {
+    color: white;
+    font-size:50px;
+    padding: 30px 270px;
+    font-family: "Trirong", serif;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.text1:hover {
+    opacity: 1; 
+    -moz-transition: all 0.6s ease-out;  /* FF4+ */
+    -o-transition: all 0.6s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.6s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.6s ease-out;  /* IE10? */
+    transition: all 0.6s ease-out; 
+    text-shadow: 0 0 3px #FF0000;
+}
+
+
+
+
