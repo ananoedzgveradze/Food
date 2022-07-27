@@ -1,9 +1,7 @@
 body {
     max-width: 100%;
-    height: 950px;
-    background-image: url("https://i.pinimg.com/564x/f6/76/17/f676171ab9a75afdca69529e43e29b29.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 1200px;
+    height: 100%;
+    background-color: #3f3f3f;
     position: relative;
    
 }
@@ -14,7 +12,7 @@ html {
   
 /* header */
 
-.header {
+.nav-wrapper {
     background-color: transparent;
     max-width: 100%;
     width: 1200px;
@@ -74,3 +72,118 @@ html {
 a {
     color: #ffffff;
 }
+
+/* BurgerIcon */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:rgb(255, 255, 255);
+    margin: 6px auto;
+    transition: 0.4s;
+  }
+  
+  
+  .toggle-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .img1 {
+    margin-top: 100px;
+    margin-left: 60px;
+    box-shadow: 10px 10px 5px rgb(185, 0, 0);
+  }
+  
+  .main-menu {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 80px;
+
+  }
+
+  .menu-section {
+    display: flex;
+  }
+
+  .mainDish {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Trirong", serif;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #ababab;
+    margin-bottom: 30px;
+  }
+
+  .twocolumn {
+    display: flex;
+  }
+
+  .mainDishColumn1 {
+    width: 400px;
+    height: auto;  
+ }
+
+ .mainDishColumn2 {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+ }
+ 
+  .mainDishesDiv {
+    width: 400px;
+    height: 100px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .dishesImg {
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .paragrs  {
+    margin: auto;
+    margin-left: 20px;
+  }
+
+  .text1 {
+    margin-bottom: 15px;
+    color:antiquewhite;
+    font-family: "Trirong", serif;
+    font-weight: bold;
+  }
+
+  .text2 {
+    font-size: 13px;
+    color:antiquewhite;
+    font-family: "Trirong", serif;
+  }
+
+  .text3 {
+    margin: auto;
+    margin-left: 25px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    font-family: "Trirong", serif;
+  }
+
+  .text33 {
+    margin: auto;
+    margin-left: 80px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    font-family: "Trirong", serif;
+  }
+
+  .horizontal {
+    display: flex;
+  }
