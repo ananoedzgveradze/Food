@@ -103,7 +103,6 @@ a {
     height: 500px;
     margin-top: 70px;
     margin-left: 80px;
-
   }
 
   .menu-section {
@@ -178,7 +177,16 @@ a {
 
   .text33 {
     margin: auto;
+    justify-content: end;
     margin-left: 80px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    font-family: "Trirong", serif;
+  }
+
+  .text4 {
+    text-align: end;
+    margin-top: 35px;
     font-size: 25px;
     color:rgb(255, 0, 0);
     font-family: "Trirong", serif;
@@ -187,3 +195,27 @@ a {
   .horizontal {
     display: flex;
   }
+
+.main-menu2 {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+  .dessert {
+    margin-left: 350px;
+    font-size: 45px;
+    font-family: "Trirong", serif;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #ababab;
+    margin-bottom: 40px;
+  }
+
+  .img2 {
+    width: 500px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: -600px;
+    box-shadow: 10px 10px 5px rgb(185, 0, 0);
+  }
+ 

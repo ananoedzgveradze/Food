@@ -61,4 +61,42 @@
  .img1 {
   align-items: center;
  }
+
+
+ .main-menu {
+  width: auto;
+  height: auto;
+  margin-right: 25px;
+ }
+ .main-menu2 {
+  width: auto;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 60px;
+
+}
+.text33 {
+  text-align: end;
+}
+
+.text3 {
+  margin-left: 60px;
+}
+.dessert {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.mainDish {
+  margin-bottom: 45px;
+}
+
+.img2 {
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-right: 45px;
+  
+}
 }
