@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
@@ -14,11 +15,11 @@
     <title>Food</title>
 </head>
 <body>
-    <header>
-        <div class="header">
+    <header class="header">
+        <div class="nav-wrapper">
             <a href="http://127.0.0.1:5500/index.html" class="logo">Talya</a>
             
-            <nav>
+            <nav class="nav-bar" id="navBarLinks">
                 <ul class="header-right">
              <li class="headList"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
              <li class="headList"><a href="http://127.0.0.1:5500/menu.html">Menu</a></li>
@@ -26,8 +27,14 @@
              <li class="headList"><a href="#testiminials">Testiminials</a></li>
              <li class="headList"><a href="#reservation">Reservation</a></li>
                 </ul>
-            </nav>
-
+            
+</nav>
+            <div class="toggle-button" id="toggleBurger">
+                <div class="bar1" id="burger1"></div>
+                <div class="bar2" id="burger2"></div>
+                <div class="bar3" id="burger3"></div>
+            </div>
+            
           </div>
 
     </header>

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
@@ -14,11 +19,11 @@
     <title>Food</title>
 </head>
 <body>
-    <header>
-        <div class="header">
+    <header class="header">
+        <div class="nav-wrapper">
             <a href="http://127.0.0.1:5500/index.html" class="logo">Talya</a>
             
-            <nav>
+            <nav class="nav-bar" id="navBarLinks">
                 <ul class="header-right">
              <li class="headList"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
              <li class="headList"><a href="http://127.0.0.1:5500/menu.html">Menu</a></li>
@@ -26,8 +31,211 @@
              <li class="headList"><a href="#testiminials">Testiminials</a></li>
              <li class="headList"><a href="#reservation">Reservation</a></li>
                 </ul>
-            </nav>
-
+            
+</nav>
+            <div class="toggle-button" id="toggleBurger">
+                <div class="bar1" id="burger1"></div>
+                <div class="bar2" id="burger2"></div>
+                <div class="bar3" id="burger3"></div>
+            </div>
+            
           </div>
 
     </header>
+
+    <section>
+        
+        <div class="menu-section">
+            <img  class="img1 animate__animated animate__slideInLeft animate__slower" src="https://i.pinimg.com/564x/32/07/3c/32073c8d93f75fd67037208ed591a9b6.jpg" alt="menu1">
+       
+            <div class="main-menu">
+                <h1 class="mainDish animate__animated animate__fadeInDown animate__slower">Main Dishes</h1>
+
+
+<div class="twocolumn">
+
+    <div class="mainDishColumn1">
+
+        <!-- #1 -->
+                    <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                        <img class="dishesImg" src="https://spb.restoran.ru/upload/resize_cache/editor/379/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/11_271ddd.webp" alt="beef">
+                          
+                        <div class="paragrs">
+                        <p class="text1">Grilled Beef with potatoes</p>
+                        <p class="text2">Meat / Potatoes / Rice / Tomatoe</p>
+                          </div>
+
+                          <p class="text3">$25.99</p>
+                    </div>
+
+        <!-- #2 -->
+
+                    <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                        <img class="dishesImg" src="https://grillex.com.ua/wp-content/uploads/2017/11/StockSnap_O5XT48TDV6-307x230.jpg" alt="Tuna">
+                          
+                        <div class="paragrs">
+                        <p class="text1">Tuna Roast Source</p>
+                        <p class="text2">Tuna / Potatoes / Rice</p>
+                          </div>
+
+                          <p class="text33">$30.99</p>
+                    </div>
+
+        <!-- #3 -->
+                    <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                        <img class="dishesImg" src="https://v-i-p.info/uploads/posts/2019-07/1563382537_dieticheskij-uzhin_7.500x500.jpg" alt="Crab">
+                          
+                        <div class="paragrs">
+                        <p class="text1">Roast Beef (4 sticks)</p>
+                        <p class="text2">Crab / Potatoes / Rice</p>
+                          </div>
+
+                          <p class="text33">$40.00</p>
+                    </div>
+
+        <!-- #4 -->            
+
+                    <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                        <img class="dishesImg" src="https://pitaniepp.com/wp-content/uploads/2016/04/Kurinye-krylyshki.jpg" alt="Chicken">
+                          
+                        <div class="paragrs">
+                        <p class="text1">Salted Fried Chicken</p>
+                        <p class="text2">Crab / Potatoes / Rice</p>
+                          </div>
+
+                          <p class="text33">$20.50</p>
+                    </div>
+
+        <!-- #5 -->
+
+                    <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                        <img class="dishesImg" src="https://receptenmetkip.nl/wp-content/uploads/2020/10/pexels-photo-616353-1300x861.jpeg" alt="Chicken2">
+                          
+                        <div class="paragrs">
+                        <p class="text1">Lumpia Shanghai</p>
+                        <p class="text2">Crab / Potatoes / Rice</p>
+                          </div>
+
+                          <p class="text33">$20.50</p>
+                    </div>
+
+        <!-- #6 -->
+
+                    <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                        <img class="dishesImg" src="https://цссв9.рф/wp-content/uploads/krevetki.jpg" alt="shrimp">
+                          
+                        <div class="paragrs">
+                        <p class="text1">Chicken Adobo</p>
+                        <p class="text2">Crab / Potatoes / Rice</p>
+                          </div>
+
+                          <p class="text33">$20.50
+                        </p>
+                    </div>
+
+        </div>
+
+<div class="mainDishColumn2"> 
+                     
+
+<!-- #1 -->
+            <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                <img class="dishesImg" src="https://mediacdn.grabone.co.nz/asset/hothc0YFQa/box2=w-1200,h-0,dne-T%60" alt="beef2">
+                  
+                <div class="paragrs">
+                <p class="text1">Marinated Beef
+                </p>
+                <p class="text2">Meat / Potatoes / Rice / Tomatoe</p>
+                  </div>
+
+                  <p class="text3">$25.99</p>
+            </div>
+
+<!-- #2 -->
+
+            <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                <img class="dishesImg" src="https://ss.sport-express.ru/userfiles/materials/169/1698196/volga.jpg" alt="Tuna3">
+                  
+                <div class="paragrs">
+                <p class="text1">Fried Tokwa</p>
+                <p class="text2">Tuna / Potatoes / Rice</p>
+                  </div>
+
+                  <p class="text33">$30.99</p>
+            </div>
+
+<!-- #3 -->
+            <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                <img class="dishesImg" src="http://www.vinegrette.ru/wp-content/uploads/2019/04/orechiette-ruccola-con-patate_00-560x840.jpg" alt="Crab3">
+                  
+                <div class="paragrs">
+                <p class="text1">Letson Kawali
+                </p>
+                <p class="text2">Crab / Potatoes / Rice</p>
+                  </div>
+
+                  <p class="text33">$40.00</p>
+            </div>
+
+<!-- #4 -->            
+
+            <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                <img class="dishesImg" src="https://mykolaiv.news/wp-content/uploads/2022/05/5a3cea49ff93d4506d4154a926ed5e24-696x454.png" alt="Chicken5">
+                  
+                <div class="paragrs">
+                <p class="text1">Fried Pork
+                </p>
+                <p class="text2">Crab / Potatoes / Rice</p>
+                  </div>
+
+                  <p class="text33">$20.50</p>
+            </div>
+
+<!-- #5 -->
+
+            <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                <img class="dishesImg" src="https://www.wmj.ru/thumb/1268x0/filters:quality(75):no_upscale()/imgs/2016/12/05/05/866731/1c7acf0386b012e5f139e77dc807f1d857b41100.jpg" alt="egg">
+                  
+                <div class="paragrs">
+                <p class="text1">Chopsuey</p>
+                <p class="text2">Crab / Potatoes / Rice</p>
+                  </div>
+
+                  <p class="text33">$20.50</p>
+            </div>
+
+<!-- #6 -->
+
+            <div class="mainDishesDiv animate__animated animate__fadeInDown animate__slower">
+                <img class="dishesImg" src="https://www.salo-sila.club/wp-content/uploads/2019/08/omlet-s-pomidorami17.jpg" alt="shrimp3">
+                  
+                <div class="paragrs">
+                <p class="text1">Sunny sideup egg</p>
+                <p class="text2">Crab / Potatoes / Rice</p>
+                  </div>
+
+                  <p class="text33">$20.50
+                </p>
+            </div>
+
+
+
+
+
+        </div>
+                   
+
+                
+</div>
+               
+
+                 
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html>
